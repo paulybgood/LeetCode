@@ -18,8 +18,6 @@ E - Edge Cases - if target doesnt exist in nums, return -1
 
 
  const search = (nums, target) => {
-    console.log(nums);
-    console.log(target);
     let left = 0;
     let right = nums.length - 1;
     let middle;
@@ -32,7 +30,6 @@ E - Edge Cases - if target doesnt exist in nums, return -1
         } else {
             left = middle + 1;
         }
-        // console.log(middle);
     }
     return -1;
 };
