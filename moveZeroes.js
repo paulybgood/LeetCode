@@ -14,7 +14,7 @@ C - Constraints - 1 <= nums.length <= 10^4
                 - -2^31 <= nums[i] <= 2^31 - 1
 E - Edge Cases - 
 
-Follow up: Could you minimize thte total number of operations done?
+Follow up: Could you minimize the total number of operations done?
 
 */
 
@@ -24,7 +24,6 @@ const moveZeroes = (nums) => {
             nums.push(...nums.splice(i,1));
         }
     }
-    return nums;
 };
 
 const TEST_CASES = [
