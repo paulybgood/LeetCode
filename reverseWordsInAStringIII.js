@@ -22,7 +22,6 @@ const reverseWords = (s) => {
     let result = []
     for (let i = 0; i < arrOfWords.length; i++) {
         let tempWord = arrOfWords[i].split('');
-        // console.log(tempWord);
         let left = 0;
         let right = tempWord.length - 1;
         while (left < right) {
